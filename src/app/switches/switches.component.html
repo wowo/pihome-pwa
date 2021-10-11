@@ -1,0 +1,6 @@
+<div *ngFor="let row of rows">
+  <strong>{{row.title}}</strong>
+  <ul>
+    <li *ngFor="let sw of row.items">{{sw.name}}</li>
+  </ul>
+</div>
